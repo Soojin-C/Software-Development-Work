@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Occupations</title>
+  </head>
+  <body>
+    Here be the random occupation of the day: <b> {{ randVal }} </b> <br>
+    Here be the table of values: <br>
+    <table>
+      <tr>
+        <th> {{ title[0] }}</th>
+        <th> {{ title[1] }}</th>
+      </tr>
+      {% for each in collection %}
+        <tr>
+          <td> {{ each[0] }} </td>
+          <td> {{ each[1] }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+  </body>
+</html>
