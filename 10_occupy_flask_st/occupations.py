@@ -21,6 +21,9 @@ for entry_index in range(len(entries)):
     if entries[entry_index] == '':
         entries.pop(entry_index)
     elif entries[entry_index].count(',') > 1:
+        #removes the leading " from some of the entries
+        if entries[entry_index][0] == '"':
+            entries[entry_index] = entries[entry_index][1:]
         entries[entry_index] = entries[entry_index].split('",')
     else:
         entries[entry_index] = entries[entry_index].split(',')
