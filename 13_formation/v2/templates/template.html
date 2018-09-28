@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>k13</title>
+</head>
+
+<body>
+  <!-- Template is used for creating the form -->
+  {%if request == "form"%}
+  <form action = "/auth" method = "POST">
+    username : <input type = "text" name = "username">
+    <br>
+    <br>
+    <input type = "submit" name = "submit">
+  </form>
+  {% endif %}
+
+  <!-- Template used for the output using the info taken from the form -->
+  {%if request == "output"%}
+
+  Username: {{user}} <br>
+  Method used: {{method}} <br><br>
+  Hello {{ user }}
+  
+  {% endif %}
+  
+</body>
+</html>
