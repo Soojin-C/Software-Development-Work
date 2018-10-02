@@ -1,0 +1,30 @@
+<!--
+OrangeJuice (Kenny Li & Soojin Choi)
+SoftDev1 Pd8
+K14 -- Do I know you?
+2018-10-1
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Who are you?</title>
+  </head>
+  <body>
+    {% if loggedIn %} <!--Welcome Page-->
+      <form action = "/logout" method = "POST"> <!--welcome form-->
+        Buon giorno {{username}} <br>
+        <input type="submit" name="submit" value="logout"/> <!--logout button-->
+      </form>
+    {% else %} <!--Error Page-->
+      {% if error is defined %} <!--gives error based on what was wrong-->
+        {{error}} is incorrect <br>
+      {% endif %}
+      <form action = "/auth" method = "POST"> <!--login form-->
+        Username: <input type = "text" name = "username"> <br> <!--text field-->
+        Password: <input type ="password" name= "password"> <br> <!--password field-->
+        <input type="submit" name="submit" value="login"/> <!--login button-->
+      </form>
+    {% endif %}
+  </body>
+</html>
