@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+
+{% block title %} Welcome  {% endblock %}
+
+{% block content %}
+
+<form action = "/logout" method = "POST"> <!--welcome form-->
+        Buon giorno {{username}} <br>
+        <input type="submit" name="submit" value="logout"/> <!--logout button-->
+      </form>
+
+{% endblock %}
