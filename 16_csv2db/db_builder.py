@@ -15,7 +15,7 @@ c = db.cursor()               #facilitate db ops
 #==========================================================
 #INSERT YOUR POPULATE CODE IN THIS ZONE
 
-with open('peeps.csv', newline='\n') as peeps:
+with open('peeps.csv') as peeps:
     #Turns peeps.csv into a DictReader with first row as keys
     peepDictReader = csv.DictReader(peeps)
 
@@ -29,7 +29,7 @@ with open('peeps.csv', newline='\n') as peeps:
         #executes SQLite statement
         c.execute(command)
 
-with open('courses.csv', newline='\n') as courses:
+with open('courses.csv') as courses:
     #Turns courses.csv into a DictReader with first row as keys
     courseDictReader = csv.DictReader(courses)
 
