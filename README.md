@@ -44,3 +44,10 @@ _stu_mean.py_
 - function for displaying/printing the db 
 - function for adding to a data base
 - function for creating a table
+
+#### 20_css3ways
+- css three ways:
+- in-line: inside the html tags using style tag
+- internal : block to detail using style outside the file
+- external : blocks to detail using style outside the file
+- class usage (div)
