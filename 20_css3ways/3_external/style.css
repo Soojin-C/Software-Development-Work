@@ -1,0 +1,39 @@
+body{
+  background-color:#595959;
+  font-family:Arial;
+}
+h1{
+  text-align:center;
+  color:white;
+  background-color:#b3b3b3;
+  margin-bottom:0px;
+  padding:3px;
+}
+footer{
+  background-color:#454545;
+  text-align:right;
+  padding:8px;
+  color:#666666;
+}
+a{
+  color:#cccccc;
+  text-decoration:none;
+  font-weight: bold;
+}
+ul{
+  list-style-type:none;
+  padding-left:0px;
+  width:150px;
+}
+div.flexbox{
+  background-color:#737373;
+  display:flex;
+}
+div.navbar{
+  display:inline-block;
+  padding-left:10px;
+  text-align:left;
+}
+div.maincontent{
+  display:inline-block;
+  padding-right:6px;
