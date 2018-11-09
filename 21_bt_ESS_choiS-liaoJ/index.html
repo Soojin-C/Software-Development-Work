@@ -27,6 +27,14 @@ K21 -- Who Does Frame Work For?
       <span class="navbar-text">plain text works too!</span>
     </div>
     </nav>
+    <div class="alert alert-secondary" role="alert">
+      <h3>Navbar</h3>
+      <p>Check out the navbar above. It's done without having to use a list!</p>
+      <ul>
+        <li>The logo text is part of the <code> navbar-brand</code> class</li> 
+        <li>Its link elements are of class <code>nav-item nav-link</code></li>
+        <li>If you simply want plain text in your navbar, use the <code>navbar-text</code> class</li></ul>
+    </div>
   <!-- container class helps to center all contents -->
   <div class="container">
     <br>
@@ -45,36 +53,46 @@ K21 -- Who Does Frame Work For?
         The fourth column of this row with the same space as the first. If you resize the window, we also adjust as well. 
       </div>
     </div>
+  </div>
+  <br>
+    <div class="alert alert-secondary" role="alert">
+      <h3> Grid formatting</h3>
+      <ul>
+        <li>To put several elements in a row, use the <code>row</code> class</li>
+        <li>Each element that belongs in a row is of the <code>col</code> class</li>
+        <li>Each row can hold a max of <b>12 columns</b></li>
+        <li>You can specify how many columns each element spans by putting an integer at the of the class name, like so: <code>class="col-[number of columns]"</code></li>
+        <li><b>Try changing the column width of the text above (line 43-54 in source code). They should get narrower/wider depending on the number of columns given.</b></li>
+        <li><b>Try removing <code>-[num of cols]</code> after every <code>col</code> element to spread them out equally across</b></li>
+      </ul>
+    </div>
     <br>
     <br>
+  <div class="container">
     <div class="media">
     <img class="mr-3" src="cream.jpg" alt="media object example">
     <div class="media-body">
-      <h5 class="mt-0">I'm a h5. The badges are the same size as me.
+      <h5 class="mt-0">I'm a h5. <b>Change me to a h3 and see the badges next to me get smaller too!</b>
       <span class="badge badge-secondary">left</span>
-      <span class="nav-item badge badge-dark">right</span></h5> 
-      Try changing the heading to a h3... you'll see the badges become larger as well.
-      Bootstrap allows you to place text to a media object without having to format the layout manually. This description text goes to the side of the ice cream picture because it's the media body!
+      <span class="badge badge-dark">right</span></h5> 
+      I am the text that describes the image.
+    </div>
     </div>
   </div>
   <br>
-  <dt>This is a description list</dt>
-  <dd>
-  conveniently bolded subtitles
-  </dd>
-  <dt>subtitle1</dt>
-  <dd>
-  can be displayed as a table with more formatting
-  </dd>
-  <br>
-  <blockquote class="blockquote text-center">
-  <p>Here we have a block quote that has been centered. The citation below can both be italized and not depending on what you want the user to see.</p>
-  <footer class="blockquote-footer">From <cite>https://tunaipsum.com/</cite></footer>
-  </blockquote>
-  <div class = "row justify-content-center">
-    <button type="button" class = "btn btn-danger"> New Row, center style. </button>
-    <p>The button above and this text are in a new row with format to center. The button type is danger and can be changed depending on what you need it for.</p>
-   </div>
+  <div class="alert alert-secondary" role="alert">
+    <h3>Media Objects</h3>
+    <ul>
+      <li>The <code>media</code> class saves you the trouble of trying to make some content appear next to another element</li>
+      <li>Place elements in the <code>media-body</code> and they will show up side-by-side with whatever else is wrapped by the <code>media</code> block</li>
+    </ul>
   </div>
+  <div class="alert alert-success" role="alert">
+    <h4>last but not least...</h4>
+    <p>All of the explanations on this page are actually written as alerts. There are different types of alerts that appear in different colors. For a complete list of them, visit the Components section in the Bootstrap documentation.</p>
+    <p><b>In line 90 of the source code, trying replacing <code>alert-success</code> with <code>alert-warning</code> and see what happens to the color of this block!</b></p>
+  </div>
+  <br>
+  <footer class="text-center"> &copy; 2018 ESS -- Soojin Choi & Joyce Liao</footer>
   </body>
 </html>
