@@ -51,3 +51,17 @@ _stu_mean.py_
 - internal : block to detail using style outside the file
 - external : blocks to detail using style outside the file
 - class usage (div)
+
+#### 21_bt_ESS_choiS-liaoJ
+v0:
+- simple bootstrap
+- navbar
+- blockquote
+- badges
+- media objects in text
+- containers
+
+v1: 
+- all of the above +
+- bootstrap alerts 
+
