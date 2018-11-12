@@ -19,19 +19,16 @@ K23 -- How the Other Half Lives
       <h1>Foundation Learnination</h1>
     </div>
   </div>
-  <div class="grid-y medium-grid-frame">
   <div class="grid-x grid-padding-x">
     <div class="cell medium-2 medium-cell-block-y">
       <ul class="vertical menu" style="background-color:whitesmoke;">
         <li><a href="#main1"><b>Main Features</b></a>
           <ul class="nested vertical menu">
             <li><a href="#f0">Grids</a></li>
-            <li><a href="#f1">Typography</a></li>
             <li><a href="#f2">Navigation</a></li>
             <li><a href="#f3">Control</a></li>
             <li><a href="#f4">Containers</a></li>
             <li><a href="#f5">Media</a></li>
-            <li><a href="#f6">Buttons</a></li>
           </ul>
         </li>
         <li><a href="#main2"><b>Credits</b></a></li>
@@ -99,36 +96,34 @@ K23 -- How the Other Half Lives
           </div>
         </div>
       <hr>
-      <h3 id="f1"> Typography </h3>
-      <p>Basic typogaphical features...</p>
-      <div class="callout primary">
-        <h1>Large header</h1>
-        <h2>Ordered list:</h2>
-        <ol>
-          <li>item uno
-            <ol>
-              <li>list inside</li>
-              <li>a list</li>
-            </ol></li>
-          <li>item dos</li>
-        </ol>
-        <h3>description list</h3>
-        <dl>
-          <dt>bolded term</dt>
-          <dd>description</dd>
-          <dt>another one</dt>
-          <dd>example</dd>
-        </dl>
-        <hr>
-        <h4>separation of powers</h4>
-        <hr>
-        <h5>block quote</h5>
-        <blockquote>Oh, woe is me
-          <cite>Ophelia</cite></blockquote>
-      </div>
-      <hr>
       <h3 id="f2"> Navigation </h3>
-      <p></p>
+      <p>A navbar with active/inactive links in the left and a search bar on the right...</p>
+      <div class="top-bar">
+      <div class="topbar-left">
+      <ul class="menu">
+        <li class="is active"><a href="#">active link</a></li>
+        <li><a href="#">link 2</a></li>
+      </ul>
+      </div>
+      <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button class="button">Search</button></li>
+      </ul>
+      </div>
+      </div>
+     <br>
+      <p>Pagination to navigate between pages...</p>
+      <div class="pagination">
+        <li class="pagination-previous disabled">Previous</li>
+        <li class="current">1</li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="ellipsis"></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li class="pagination-next"><a href=#>Next</a></li>
+      </div>
       <hr>
       <h3 id="f3"> Control </h3>
       <p>Buttons can have different colors through their different types:
@@ -169,16 +164,27 @@ K23 -- How the Other Half Lives
       <div class = "callout success">
         based on the same keywords as the buttons above.
       </div>
+      <div class="card">
+        <div class="card-section">
+          example of a card-section:
+        </div>
+        <div class="card-section">
+          <img src="https://via.placeholder.com/100?text=card-section image">
+        </div>
+      </div>
       <hr>
       <h3 id="f5"> Media </h3>
-    </div>
-    <div class="callout secondary">
-    <h4 id="main2">Credits</h4>
-    This site is created with the assistance of instructions and source code from team Sephora!</div>
+      <p>embedding videos with <code>responsive-embed</code> and using the embed url as opposed to the browsing url</p>
+      <div class="responsive-embed">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HxlO1URMXak" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
+  <div class="callout secondary">
+    <h4 id="main2">Credits</h4>
+    This site is created with the assistance of instructions and source code from team Sephora and team Oogabooga!</div>
+  </div>
 </div>
-
   </body>
 
 </html>
