@@ -1,53 +1,183 @@
+<!--
+Team E.S.S. -- Soojin Choi, Joyce Liao
+Softdev1 pd8
+K23 -- How the Other Half Lives
+2018-11-11
+-->
+
 <!DOCTYPE html>
-<!-- WORK FILE for CSS -->
 
 <html>
   <head>
-    <title>foo title</title>
+    <title>founduple</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0/dist/css/foundation.min.css" integrity="sha256-VEEaOnBKVRoYPn4AID/tY/XKVxKEqXstoo/xZ6nemak= sha384-D46t32f421/hB30qwnim2pIcisNN5GU9+6m2Mfnd3dKpTSFidZLa08/1StEiCFId sha512-WkgzH8VKemDfwrp18r+wgbx+oHXOkfd2kJs7ocAXdGDgonXDXh88E90IRtRZRXtO0IHprxYHYlY14h+wyTsUDA==" crossorigin="anonymous">
   </head>
 
   <body>
-    <h1>foo heading 1</h1>
-    <h3>nav foo</h3>
-    <ul>
-      <li><a href="">dis</a></li>
-      <li><a href="">dat</a></li>
-      <li><a href="">de udda ting</a></li>
-    </ul>
-    <h2> Grids </h2>
-    <p> Out of the max 12 columns for each row
-      <br>
-        large: orig browser
-        <br>
-        medium: medium size ratio
-        <br>
-        small : small size ratio</p>
-        <br>
-    <div class = "grid-x grid-padding-x">
-      <div class = "large-4 medium-3 small-8">
-        large:4, medium:3, small:8
-      </div>
-      <div class = "large-4 medium-6 small-2">
-        large:4, medium:6, small:2
-      </div>
-      <div class = "large-4 medium-3 small-2">
-        large:4, medium:3, small:2
-      </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <h1>Foundation Learnination</h1>
     </div>
-
-      <br>
-      <br>
-
-    <h2> Buttons </h2>
-
-    <p></p>
-    <br>
-    <br>
-
-    <h2> Tables </h2>
-
-      Copyright &copy; 2016 Clyde "Thluffy" Sinclair
+  </div>
+  <div class="grid-y medium-grid-frame">
+  <div class="grid-x grid-padding-x">
+    <div class="cell medium-2 medium-cell-block-y">
+      <ul class="vertical menu" style="background-color:whitesmoke;">
+        <li><a href="#main1"><b>Main Features</b></a>
+          <ul class="nested vertical menu">
+            <li><a href="#f0">Grids</a></li>
+            <li><a href="#f1">Typography</a></li>
+            <li><a href="#f2">Navigation</a></li>
+            <li><a href="#f3">Control</a></li>
+            <li><a href="#f4">Containers</a></li>
+            <li><a href="#f5">Media</a></li>
+            <li><a href="#f6">Buttons</a></li>
+          </ul>
+        </li>
+        <li><a href="#main2"><b>Credits</b></a></li>
+      </ul>
+    </div>
+    <div class="cell medium-10 medium-cell-block-y">
+        <h2 id="main1"> Main Features </h2>
+        <hr>
+      <div class="grid-x grid-padding-x">
+      <div class="cell medium-8 medium-cell-block-y">
+        <h3 id="f0"> Grids </h3>
+        <p> Out of the max 12 columns for each row
+          <br>
+            large: orig browser
+            <br>
+            medium: medium size ratio
+            <br>
+            small : small size ratio</p>
+        Simulating various divisions of x-grid and incorporating different types of callouts...
+        <br>
+        <br>
+        <div class = "grid-x grid-padding-x">
+          <div class="cell medium-8 medium-cell-block-y">
+            <div class="grid-x grid-padding-x">
+              <div class="small-12 cell">
+                <div class="callout primary">
+                  all 12 in one across
+                </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="small-6 cell">
+                <div class="callout warning">
+                  half and half
+                </div>
+              </div>
+              <div class="small-6 cell">
+                <div class="callout warning">
+                  half and half
+                </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class = "small-3 cell">
+                <div class= "callout secondary">
+                  three cell
+                </div>
+              </div>
+              <div class = "small-3 cell">
+                <div class= "callout secondary">
+                  three cell
+                </div>
+              </div>
+              <div class = "small-3 cell">
+                <div class= "callout secondary">
+                  three cell
+                </div>
+              </div>
+              <div class = "small-3 cell">
+                <div class= "callout secondary">
+                  three cell
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <hr>
+      <h3 id="f1"> Typography </h3>
+      <p>Basic typogaphical features...</p>
+      <div class="callout primary">
+        <h1>Large header</h1>
+        <h2>Ordered list:</h2>
+        <ol>
+          <li>item uno
+            <ol>
+              <li>list inside</li>
+              <li>a list</li>
+            </ol></li>
+          <li>item dos</li>
+        </ol>
+        <h3>description list</h3>
+        <dl>
+          <dt>bolded term</dt>
+          <dd>description</dd>
+          <dt>another one</dt>
+          <dd>example</dd>
+        </dl>
+        <hr>
+        <h4>separation of powers</h4>
+        <hr>
+        <h5>block quote</h5>
+        <blockquote>Oh, woe is me
+          <cite>Ophelia</cite></blockquote>
+      </div>
+      <hr>
+      <h3 id="f2"> Navigation </h3>
+      <p></p>
+      <hr>
+      <h3 id="f3"> Control </h3>
+      <p>Buttons can have different colors through their different types:
+        <br>
+        - primary - secondary - success - alert - warning -
+        <br>
+        <br>
+        Buttons can also have different sizes:
+        <br>
+        - tiny - small - standard - large - expanded -
+        <br>
+        Some link while others are action buttons.
+      </p>
+        <br>
+      <a href="#" class = "button tiny primary"> Tiny Linking Primary! </a>
+      <button type = "button" class = "button small secondary"> Small Secondary Action! </button>
+      <button type = "button" class = "button success"> Standard Success! </button>
+      <button type = "button" class = "button large alert"> Large Alert! </button>
+      <button type = "button" class = "button expanded warning"> Expanded Warning! </button>
+        <br>
+      <p>Buttons can be hollow, clear or disabled </p>
+      <button type = "button" class = "button hollow tiny primary"> Tiny Primary! </button>
+      <button type = "button" class = "button clear small secondary"> Small Secondary! </button>
+      <button type = "button" class = "button disabled success"> Original Success! </button>
+      <p>And button groups: basic ones and expanded button-groups </p>
+      <div class="button-group">
+        <a class="button">A</a>
+        <a class="button">Basic</a>
+        <a class="button">Button</a>
+        <a class="button">Group</a>
+      </div>
+      <hr>
+      <h3 id="f4"> Containers </h3>
+      <p> Used to seperate content. Some examples are callouts and cards </p>
+      <div class = "callout primary">
+        This is a callout that can have a variety of of colors
+      </div>
+      <div class = "callout success">
+        based on the same keywords as the buttons above.
+      </div>
+      <hr>
+      <h3 id="f5"> Media </h3>
+    </div>
+    <div class="callout secondary">
+    <h4 id="main2">Credits</h4>
+    This site is created with the assistance of instructions and source code from team Sephora!</div>
+    </div>
+  </div>
+</div>
 
   </body>
 
