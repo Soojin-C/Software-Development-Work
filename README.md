@@ -71,3 +71,7 @@ Foundation :
 - media objects
 - containers: alerts, cards
 - nav bar
+
+#### 24_rest
+- urllib.request
+- json.loads()
