@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 26_rrreeesssttt </title>
+</head>
+<body>
+	<h2> {{ nyt_head[1] }} </h2>
+	<p> Published Date: {{ nyt_head[2] }} </p>
+	<img height = 500, width = 800 src = {{ cat_img }} >
+	<h5> {{ nyt_head[0] }} </h5>
+	
+	<!--
+		nyt_head[0] = Article Title 
+		nyt_head[1] = Copyright Info
+		nyt_head[2] = Published Date
+		
+		cat_img = url to image
+	
+		gb[0] = Author Name
+		gb[1] = Brief Summary
+		gb[2] = Rating
+		gb[3] = Book Name
+	-->
+	{{ gb[3] }} by ... {{ gb[0] }}
+	<p> {{ gb[1] }} </p>
+	<br>
+	Rated : {{ gb[2] }}
+</body>
+</html>
