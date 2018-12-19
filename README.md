@@ -77,7 +77,9 @@ Foundation :
 - json.loads()
 
 #### 25_rest
-- 
+- all the above +
+- SpaceX API usage
+- NASA API usage
 
 #### 26_rrreeesssttt
 - 
