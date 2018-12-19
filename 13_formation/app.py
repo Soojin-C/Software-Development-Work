@@ -30,6 +30,10 @@ def authenticate():
     print ( "\n -----------")
 
     username = request.args["username"]
+    for each in request.args:
+        print(each);
+        if (request.args[each] == 'submit'):
+            print(each)
     
     return render_template("template.html", request = "output", user = username, method = request.method)
     
