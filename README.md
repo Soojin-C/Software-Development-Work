@@ -80,6 +80,10 @@ Foundation :
 - all the above +
 - SpaceX API usage
 - NASA API usage
+- [API list](https://docs.google.com/document/u/0/?tgif=d)
 
 #### 26_rrreeesssttt
-- 
+- 24_rest +
+- Top Stories API
+- The Cat API
+- Google Books API
