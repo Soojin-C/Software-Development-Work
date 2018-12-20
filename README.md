@@ -92,3 +92,8 @@ Foundation :
 - gcd
 - fibonacci
 ... in javascript
+#### 29_js
+- document.getElementByID("id")
+- textbox.innerHTML
+- <obj>.addEventListener(event, fxnName)
+- buttons that lead to the three functions of 28_js
