@@ -97,3 +97,6 @@ Foundation :
 - textbox.innerHTML
 - <obj>.addEventListener(event, fxnName)
 - buttons that lead to the three functions of 28_js
+
+#### 30_js
+- 
