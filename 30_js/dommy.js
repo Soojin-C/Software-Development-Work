@@ -1,3 +1,7 @@
+// Team Whirlpool (Mohtasim Howlader and Soojin Choi)
+// SoftDev1 pd8
+// K30 -- Sequential Progression III: Season of the Witch
+// 2018-12-21
 // Lo, what is this? Could it be a VALUE-ADDED-KEY2SUCCESS?!?!
 
 var changeHeading = function(e) {
