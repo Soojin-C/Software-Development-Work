@@ -99,4 +99,6 @@ Foundation :
 - buttons that lead to the three functions of 28_js
 
 #### 30_js
-- 
+- document.getElementsByTagName("li")
+- var item = document.createElement("li");
+- document.getElementById("fiblist").appendChild(item)
